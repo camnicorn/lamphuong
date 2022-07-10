@@ -1,0 +1,295 @@
+@font-face {
+    font-family: Lens;
+    src: url(/LensGrotesk-SemiBold.otf);
+}
+@font-face {
+    font-family: Lenslight;
+    src: url(/LensGrotesk-Light.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(/hinh/IMG_4347.png);
+    background-size: 2050px;
+    background-position: 0px -920px;
+    height: 600px;
+}
+.chubanner{
+    height: 600px;
+    padding: 100px;
+}
+.port{
+    font-family: Lens;
+    font-size: 161px;
+}
+.nam{
+    font-family: Lens;
+    font-size: 180px;
+}
+.banner img{
+    width: 120px;
+}
+.arrow{
+    justify-self: flex-end;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.info{
+    background-color: black;
+}
+.info p{
+    color: white;
+    font-family: Lenslight;
+    font-size: 11px;
+}
+.chuinfo{
+    padding: 50px 100px;
+}
+.designer{
+    background-color: black;
+    height: 1620px;
+    padding: 0 100px 100px;
+}
+.illustrator{
+    background-color: black;
+    height: 1104px;
+    padding: 0 100px 100px;
+}
+.contactme{
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+    border-top-width: 0.5px;
+    background-color: black;
+    height: 305px;
+    padding: 0 100px 100px;
+}
+.categorize h1{
+    font-family: Lens;
+    font-size: 57px;
+}
+.project{
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+    border-top-width: 0.5px;
+}
+.project3{
+    height: 60px;
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+    border-top-width: 0.5px;
+}
+.contactme3{
+    background-color: black;
+    height: 505px;
+    padding: 0 100px 100px;
+}
+.contactme2{
+    padding: 50px 0 47px 0;
+}
+.categorize{
+    padding: 10px 0;
+    height: 70px;
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+    border-right-width: 0.5px;
+}
+.letrai{
+    height: 517px;
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+    border-right-width: 0.5px;
+}
+.letrai2{
+    height: 435px;
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+    border-right-width: 0.5px;
+}
+.lephai{
+    padding: 0 0 0 60px;
+}
+.contact{
+    padding: 0 0 0 60px;
+}
+.lephai h2{
+    font-family: Lens;
+    font-size: 29px;
+    color: white;
+}
+.letrai h1{
+    font-family: Lens;
+    font-size: 60px;
+    color: white;
+    line-height: 0.75;
+}
+.lephai p{
+    font-family: Lenslight;
+    font-size: 11px;
+    opacity: 80%;
+}
+.contact p{
+    font-family: Lenslight;
+    font-size: 11px;
+    opacity: 80%;
+}
+.hinh6{
+    height: 400px;
+    background-color: blue;
+    margin-bottom: 20PX;
+}
+.hinh1{
+    height: 400px;
+    background-image:url(/hinh/c2h4.2.jpg);
+    background-size: 670px 670px;
+    background-position: 700px -115px;
+    margin-bottom: 20PX;
+}
+.hinh2{
+    height: 400px;
+    background-image:url(/hinh/mockupfin.jpg);
+    background-size: cover;
+    margin-bottom: 20PX;
+}
+.hinh3{
+    height: 400px;
+    background-image:url(/hinh/NUCLEAR-04.jpg);
+    background-size: cover;
+    background-position: 0 -10px;
+    margin-bottom: 20PX;
+}
+.hinh4{
+    height: 400px;
+    background-image:url(/hinh/263050230_906305323420507_8019803335935657342_n.png);
+    background-size: cover;
+    background-position: 0 -70px;
+    margin-bottom: 20PX;
+}
+.hinh5{
+    height: 400px;
+    background-image:url(/hinh/so3-01.png);
+    background-size: 1000px;
+    background-position: -150px -40px;
+    margin-bottom: 20PX;
+}
+.duan1 a{
+    text-decoration: none;
+}
+.duan1 h2:hover{
+    color: blue;
+}
+.duan1a{
+    padding: 0;
+    height: 450px;
+    align-self: end;
+}
+.stroke{
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.2px
+}
+.so img{
+    width: 100%;
+}
+.contact__input {
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    color: white;
+    border-radius: .5rem;
+    border: 1.5px solid white;
+    background-color: black;
+    outline: none;
+    margin-bottom: 20px;
+}
+.contact__input2 {
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    color: white;
+    border-radius: 9px;
+    border: 1.5px solid white;
+    background-color: black;
+    outline: none;
+}
+  
+.contact__button {
+    display: block;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    margin: auto;
+}
+.bd-grid {
+    max-width: 100%;
+    display: grid;
+}
+.contact__form {
+    width: 100%;
+}
+.contact__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact img{
+    width: 50%;
+    margin-left: 50px;
+}
+.contact__form h1{
+    font-family: Lens;
+    font-size: 30px;
+}
+.chucontact{
+    height: 366px;
+}
+.chucontact h4{
+    padding: 8px 0;
+    font-family: Lens;
+    font-size: 17.5px;
+}
+.chucontact p{
+    padding: 8px 0;
+    font-family: Lenslight;
+    font-size: 13px;
+}
+.o{
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+    border-bottom-width: 0.5px;
+}
+.footer{
+    background-color: black;
+    height: 60px;
+    padding: 0 100px 0 100px;
+}
+.footer p{
+    font-family: Lenslight;
+    font-size: 11px;
+    opacity: 80%;
+}
+.contactme2 img{
+    width: 90%;
+    padding: 27px 0;
+}
+.contactme h1{ 
+    font-family: Lenslight;
+    font-size: 50px;
+    padding: 20px 0;
+}
+.contactme2 a:hover{
+    opacity: 50%;
+}
+
